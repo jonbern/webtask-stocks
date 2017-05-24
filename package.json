@@ -1,0 +1,30 @@
+{
+  "name": "stock-history-webtask",
+  "version": "0.0.1",
+  "description": "Returns stocks' price and volume history",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "local-run": "node webtask-local-runner.js symbols=DNB,TEL,ASETEK,BOUVET,NTS,WILS,EMAS,PLCS,SKBN"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonbern/webtask-stocks.git"
+  },
+  "keywords": [
+    "webtask",
+    "stocks",
+    "history"
+  ],
+  "author": "Jon K. Bernhardsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonbern/webtask-stocks/issues"
+  },
+  "homepage": "https://github.com/jonbern/webtask-stocks#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "fetch-retry": "^1.1.0",
+    "moment": "^2.18.1"
+  }
+}
