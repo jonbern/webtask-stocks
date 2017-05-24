@@ -6,7 +6,7 @@ This webtask fetches historical stock prices of Norwegian stocks, using the API 
 
 Previously, Yahoo Finance provided an API for querying this data, but since 16. May 2017 this API has been discontinued.
 
-This webtask serves as an alternative to the Yahoo Finance API in that it can query Norwegian stock prices, which are often not available usinger other data providers, or just very expensive.
+This webtask serves as an alternative to the Yahoo Finance API in that it can query Norwegian stock prices, which are often not available using other data providers, or just very expensive.
 
 ## Example
 ```
