@@ -8,7 +8,7 @@ module.exports = (ctx, done) => {
   let symbols = ctx.data.symbols ? ctx.data.symbols.split(',') : [];
 
   if (symbols.length === 0) {
-    done('Please provide a symbols query parameter for the stocks you want to query');
+    done('Missing or empty symbols parameter. Please provide a list of symbols to query');
   }
 
   let results = {};
