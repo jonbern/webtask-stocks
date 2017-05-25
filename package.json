@@ -1,7 +1,7 @@
 {
   "name": "stock-history-webtask",
   "version": "0.0.1",
-  "description": "Returns stocks' price and volume history",
+  "description": "Fetches historical stock prices of Norwegian stocks",
   "main": "index.js",
   "scripts": {
     "test": "npm run test",
