@@ -7,7 +7,7 @@ const moment = require('moment');
 module.exports = (ctx, done) => {
   let symbols = ctx.data.symbols ? ctx.data.symbols.split(',') : [];
 
-  if (!symbols || symbols.length === 0) {
+  if (symbols.length === 0) {
     done('Please provide a symbols query parameter for the stocks you want to query');
   }
 
